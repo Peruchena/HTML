@@ -163,3 +163,8 @@ div .tema_linea {
 .tema_linea img {
     height: 45px;
 }
+.tema_linea p {
+    margin: 5px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0%);
+}
