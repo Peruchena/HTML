@@ -8,18 +8,17 @@
         <link rel="stylesheet" href="landing.css">
     </head>
     <body>
-        <header  class="nav1">
+        <header class="nav1">
             <div>
-               <nav>
-                    <a href="ba_records.html">
-                        <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/no%20music%20no%20life.png?raw=true" alt="BA Records logo" height="106" width="110">
-                    </a>
-                    <button type="button" class="login"> <a href="https://github.com/Peruchena/HTML">login</a></button>
-                    <input autocomplete="on" placeholder="Buscar una canción" type="search" >
-                    <a href="generos.html" target="_self" class="listado">listado</a>
-                    <!-- buscador y links -->
-                </nav> 
+                <a href="ba_records.html">
+                    <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/no%20music%20no%20life.png?raw=true" alt="BA Records logo" height="106" width="110">
+                </a>
             </div>
+            <nav>
+                <button type="button" class="login"> <a href="https://github.com/Peruchena/HTML">login</a></button>
+                <input autocomplete="on" placeholder="Buscar una canción" type="search" >
+                <a href="generos.html" target="_self" class="listado">listado</a>
+            </nav> 
         </header>
          
         <main>
@@ -29,14 +28,14 @@
             </section>
         </main>
         <div class="cards">
-            <div class="tema1">
-                <a href="https://www.youtube.com/watch?v=Q1QcLbkYFaM" target="_blank">
+            <a href="https://www.youtube.com/watch?v=Q1QcLbkYFaM" target="_blank">
+                <div class="tema1">
                     <section>
                         <article>
                             <div class="img1">
                                 <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/IDGAF.jpg?raw=true" alt="IDGAF por BoyWithUke" class="IDGAF" height="400" width="423.44">
                             </div>
-                            <div class="audio1">
+                            <div class="audio" id="audio1">
                                 <audio controls width="423.44px">
                                     <source src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/BoyWithUke%20-%20IDGAF%20ft.%20blackbear%20(320%20kbps).mp3?raw=true" type="audio/mp3">
                                 </audio>
@@ -46,16 +45,17 @@
                             </div>
                         </article>
                     </section> 
-                </a>
-            </div>
-            <div class="tema2">    
-                <a href="https://youtu.be/i9ETluhpxEI" target="_blank">
+                </div> 
+            </a>
+            
+            <a href="https://youtu.be/i9ETluhpxEI" target="_blank">
+                <div class="tema2">
                     <section>
                         <article>
                             <div class="img2">
                                 <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/Digimonst.jpg?raw=true" alt="The Cyber Sleuth por Masafumi Takada" height="400" width="423.44">
                             </div>
-                            <div class="audio2">
+                            <div class="audio" id="audio2">
                                 <audio controls>
                                     <source src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/The%20Cyber%20Sleuth%20-%20Digimon%20Story_%20Cyber%20Sleuth%20%5BOST%5D%20(320%20kbps).mp3?raw=true" type="audio/mp3">
                                 </audio>
@@ -65,16 +65,16 @@
                             </div>
                         </article>
                     </section>
-                </a>
-            </div>
-            <div class="tema3">
-                <a href="https://youtu.be/Q9vjcec_EIk" target="_blank">
+                </div>
+            </a>
+            <a href="https://youtu.be/Q9vjcec_EIk" target="_blank">
+                <div class="tema3">
                     <section>
                         <article>
                             <div class="img3">
                                 <img src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/Planetary%20Pieces.jpg?raw=true" alt="Planetary Pieces por Tomoya Ohtani" height="400" width="423.44">
                             </div>
-                            <div class="audio3">
+                            <div class="audio" id="audio3">
                                 <audio controls>
                                     <source src="https://github.com/Peruchena/HTML/blob/main/Desarrollo%20web/AP/The%20World%20Adventure%20(320%20kbps).mp3?raw=true" type="audio/mp3">
                                 </audio>
@@ -84,16 +84,9 @@
                             </div>
                         </article>
                     </section>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
-
-        
-        
-        
-<!--»transformar las sections en cards con css«-->
-<!--»editar las fotos con el ps para hacerlas png«-->
-<!--»poner iconos e info de contacto en el footer«-->
         <footer class="footer">Info de contacto: 
             <div>
                 <nav>
